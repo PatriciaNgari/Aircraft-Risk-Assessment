@@ -78,9 +78,17 @@ A graph showing the number of accidents since 1942.
 
 ![Number of Aviation Accidents Over Time](Number_of_Aviation_Accidents_Over_Time.PNG)
 
+From the above graph, 1982 is the year that had most occurences of accidents. 
+However, the number of accidents tends to go down two decades later.
+The reduction of the accidents may be due to production of new models of aeroplanes.
+
 #### A bar graph showing the top 10 Makes and Models with high number of accidents
 
 ![Makes with highest accidents](Top_10_Aircraft_Models_with_Most_Accidents.png)
+
+From the above graph, we can conclude that the Aircraft make with highest number of Accidents is Cessna.
+This make has over 25000 accidents since 1948 to 2022 which is a very high number compared other makes.
+Let's see which make has the least number of accidents since 1948 to 2022
 
 #### 10 Makes with least number of accidents
 
@@ -88,11 +96,17 @@ Plotting a graph Aircraft Makes against the Number of accidents associated with 
 
 ![Makes with Least Number of Accidents](Makes_with_least_accidents.png)
 
+There are 6133 makes with accident occurences less than two. 
+Mckinnis, Aeronca-Bubeck Irving, Trike and 6130 more have incidents below 2.
+The above graph gives 10 Aircraft makes with number of accidents less than 2.
+
 #### Number of Accidents as Per Weather Conditions
 
 A graph showing number of accidents in different weather Conditions.
 
 ![Number of Accidents in Different Weather Conditions](accidents_by_weather.png)
+
+In aviation, instrument meteorological conditions (IMC) are weather conditions that require pilots to fly primarily by reference to flight instruments, and therefore under instrument flight rules (IFR), as opposed to flying by outside visual references under visual flight rules (VFR). Visual meteorological conditions (VMC) is an aviation flight category in which visual flight rules (VFR) flight is permitted—that is, conditions in which pilots have sufficient visibility to fly the aircraft maintaining visual separation from terrain and other aircraft. From the above graph, the number of accidents occuring from VMC are high compared to IMC weather conditions. This would mean that when there is sufficient visibility, that is under Visual Meteorological Conditions(VMC), the pilot is not required to apply the IFR(Instrument Flight Rules), the number of accidents go higher. However, when there is poor visibility due to poor weather conditions, that is under Instrument Meteorological Conditions(IMC), the pilots are required to apply the IFR and the number of accidents are less.
 
 #### Accident Severity Distribution
 
