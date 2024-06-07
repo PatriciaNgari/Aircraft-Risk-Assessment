@@ -27,7 +27,7 @@ import seaborn as sns
 df = pd.read_csv('Aviation_Data.csv', dtype={6: 'object', 7: 'object', 28: 'object'})
 df.head()
 `
-####Getting rid of all columns with a threshold of more than 30% missing values.
+#### Getting rid of all columns with a threshold of more than 30% missing values.
 
 `python
 percent_missing = df.isnull().mean() * 100
@@ -74,4 +74,6 @@ for col in aviation_data.select_dtypes(include=['number']).columns:
 
 #Number of Accidents over the Years
 A graph showing the number of accidents since 1942.
+
 ![Number of Aviation Accidents Over Time](Number_of_Aviation _Accidents _Over_Time.png)
+
