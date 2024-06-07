@@ -1,15 +1,15 @@
-###### Aircraft Risk Assessment for a New Business Endeavour.
+# Aircraft Risk Assessment for a New Business Endeavour.
 
 This project seeks to guide the company as it ventures into operation of commercial and private airplanes. The main focus is on comparing the risk levels of different aircraft makes and come up with aircraft models that present the lowest risk and highest potential for successful operations.
 Using Exploratory Data Analysis(EDA), the dataset from the National Transportation and Safety Board is used to profile the Aircraft models into either low risk or high risk depending on the number of accidents recorded.
 
 #### Objectives
 
-1.Determine the lowest-risk aircraft options for the company's expansion into the aviation industry.
-2.Evaluate various Aircraft Models in terms of reliability and market reputation by looking into the number of accidents the model was involved in over time.
-3.Use Exploratory Data Analysis(EDA) to clean the dataset, aggregating and formulating visualization tools for a clear presentation.
-4.Create an interactive dashboard so that the users can explore the analysis.
-5.A summary of the key insights from the Analysis and recommendations for the company.
+*Determine the lowest-risk aircraft options for the company's expansion into the aviation industry.
+*Evaluate various Aircraft Models in terms of reliability and market reputation by looking into the number of accidents the model was involved in over time.
+*Use Exploratory Data Analysis(EDA) to clean the dataset, aggregating and formulating visualization tools for a clear presentation.
+*Create an interactive dashboard so that the users can explore the analysis.
+*A summary of the key insights from the Analysis and recommendations for the company.
 
 #### Exploratory Data Analysis
 
@@ -37,7 +37,7 @@ print(missing_value_df)
 df = df.loc[:, df.isnull().mean() < 0.3]
 df.head()
 `
-#### Treat the remaining Null values with mean for all numerical columns and mode for categorical columns
+#### Treat the remaining Null values with *mean* for all numerical columns and *mode* for categorical columns
 
 `python
 numerical_cols = df.select_dtypes(include=['number']).columns
@@ -74,4 +74,4 @@ for col in aviation_data.select_dtypes(include=['number']).columns:
 
 #Number of Accidents over the Years
 A graph showing the number of accidents since 1942.
-![Number of Aviation Accidents Over Time](accidents_by_weather_condition.png)
+![Number of Aviation Accidents Over Time](Number_of_Aviation _Accidents _Over_Time.png)
