@@ -5,11 +5,11 @@ Using Exploratory Data Analysis(EDA), the dataset from the National Transportati
 
 #### Objectives
 
-*Determine the lowest-risk aircraft options for the company's expansion into the aviation industry.
-*Evaluate various Aircraft Models in terms of reliability and market reputation by looking into the number of accidents the model was involved in over time.
-*Use Exploratory Data Analysis(EDA) to clean the dataset, aggregating and formulating visualization tools for a clear presentation.
-*Create an interactive dashboard so that the users can explore the analysis.
-*A summary of the key insights from the Analysis and recommendations for the company.
+* Determine the lowest-risk aircraft options for the company's expansion into the aviation industry.
+* Evaluate various Aircraft Models in terms of reliability and market reputation by looking into the number of accidents the model was involved in over time.
+* Use Exploratory Data Analysis(EDA) to clean the dataset, aggregating and formulating visualization tools for a clear presentation.
+* Create an interactive dashboard so that the users can explore the analysis.
+* A summary of the key insights from the Analysis and recommendations for the company.
 
 #### Exploratory Data Analysis
 
@@ -106,3 +106,23 @@ A count of Injuries in different categories
 
 ![Fatal Injuries VS Total Serious Injuries](scatter_plot_of_fatal_injuries_vs_total_serious.png)
 
+# Conclusion
+
+From the analysis the following conclusions were made;
+
+* The Cessna Aircraft Model has a bad reputation from the high number of accidents it is involved in.
+* There are at least 6000 Aircraft models the company can choose from. Further Analysis would be required to determine the operation cost and customer preferences either in personal or commercial flights.
+* The number of accidents were higher when there was clear visibility and therefore poor weather conditions did not contribute to high number of accidents. The high number of accidents would be due to other reasons.
+
+# Recommendations
+
+From the analysis of the aviation dataset, the following are the recommendations.
+
+* The company need to watch out for the aircraft models with high number of accident occurrences since they reflect vulnerability. These include Cessna, Piper and Beech models which have recorded over 5000 number of accidents since 1948.
+* The aviation industry improves with time as seen from the reduction of number of accidents from 1982. Therefore it is good to keep on researching for new model production with high level of efficiency and reliability.
+* Operational cost was not covered by this analysis and therefore more analysis need to be undertaken to include the operation and maintenance costs of aircrafts for a better and informative decision to be made.
+
+# Acknowledgement
+
+Thanks to Flatiron and Moringa School for providing the dataset and learning materials to guide me in this project.
+Special thanks to my Technical Mentors from Moringa School, Mark Tiba and Faith Rotich for their continued support in this journey.
