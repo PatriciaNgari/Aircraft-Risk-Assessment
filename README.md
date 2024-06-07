@@ -90,6 +90,13 @@ From the above graph, we can conclude that the Aircraft make with highest number
 This make has over 25000 accidents since 1948 to 2022 which is a very high number compared other makes.
 Let's see which make has the least number of accidents since 1948 to 2022
 
+#### Yearly Number of Accidents Per Make
+
+![Total number of accidents per make per year](Accidents_per_Aircraft_Make_by_Year.png)
+
+The above graph shows top 10 makes and the number of accidents per year.
+Cessna Make is leading with the highest number of accidents, followed by Piper and Beech
+
 #### 10 Makes with least number of accidents
 
 Plotting a graph Aircraft Makes against the Number of accidents associated with the make.
