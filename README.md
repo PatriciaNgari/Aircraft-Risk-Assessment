@@ -106,6 +106,10 @@ A count of Injuries in different categories
 
 ![Fatal Injuries VS Total Serious Injuries](scatter_plot_of_fatal_injuries_vs_total_serious.png)
 
+#### Observations from the scatter plots
+
+From the scatter plots, there is no relationship between Fatal Injuries and the Total Uninjured. There is also no relationship between Fatal Injuries and the Total Serious Injuries.
+
 # Conclusion
 
 From the analysis the following conclusions were made;
