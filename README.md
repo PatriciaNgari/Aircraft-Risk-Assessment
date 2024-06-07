@@ -72,8 +72,37 @@ for col in aviation_data.select_dtypes(include=['number']).columns:
 `
 #### Graphical Presentations
 
-#Number of Accidents over the Years
+# Number of Accidents over the Years
+
 A graph showing the number of accidents since 1942.
 
-![Number of Aviation Accidents Over Time](Number_of_Aviation _Accidents _Over_Time.png)
+![Number of Aviation Accidents Over Time](Number_of_Aviation_Accidents_Over_Time.png)
+
+### A bar graph showing the top 10 Makes and Models with high number of accidents
+
+![Makes with highest accidents](Top_10_Aircraft_Models_with_Most_Accidents.png)
+
+#### 10 Makes with least number of accidents
+
+Plotting a graph Aircraft Makes against the Number of accidents associated with the make.
+
+![Makes with Least Number of Accidents](Makes_with_least_accidents.png)
+
+#### Number of Accidents as Per Weather Conditions
+
+A graph showing number of accidents in different weather Conditions.
+
+![Number of Accidents in Different Weather Conditions](accidents_by_weather.png)
+
+#### Accident Severity Distribution
+
+A count of Injuries in different categories
+
+![A Count of Injuries](accidents_severity_distribution.png)
+
+#### Scatter Plots To Investigate Correlation Between the Injuries
+
+![Fatal Injuries VS Total_Uninjured](scatter_plot_of_fatal_injuries_vs_total_uninjured.png)
+
+![Fatal Injuries VS Total Serious Injuries](scatter_plot_of_fatal_injuries_vs_total_serious.png)
 
