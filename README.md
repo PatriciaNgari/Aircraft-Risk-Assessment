@@ -76,7 +76,7 @@ for col in aviation_data.select_dtypes(include=['number']).columns:
 
 A graph showing the number of accidents since 1942.
 
-![Number of Aviation Accidents Over Time](Number_of_Aviation_Accidents_Over_Time.png)
+![Number of Aviation Accidents Over Time](Number_of_Aviation_Accidents_Over_Time.PNG)
 
 #### A bar graph showing the top 10 Makes and Models with high number of accidents
 
