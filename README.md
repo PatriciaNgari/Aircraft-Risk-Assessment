@@ -70,15 +70,15 @@ def treat_outliers(aviation_data, column):
 for col in aviation_data.select_dtypes(include=['number']).columns:
     treat_outliers(aviation_data, col)
 `
-#### Graphical Presentations
+# Graphical Presentations
 
-# Number of Accidents over the Years
+#### Number of Accidents over the Years
 
 A graph showing the number of accidents since 1942.
 
 ![Number of Aviation Accidents Over Time](Number_of_Aviation_Accidents_Over_Time.png)
 
-### A bar graph showing the top 10 Makes and Models with high number of accidents
+#### A bar graph showing the top 10 Makes and Models with high number of accidents
 
 ![Makes with highest accidents](Top_10_Aircraft_Models_with_Most_Accidents.png)
 
