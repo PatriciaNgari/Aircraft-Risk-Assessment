@@ -70,6 +70,7 @@ def treat_outliers(aviation_data, column):
 for col in aviation_data.select_dtypes(include=['number']).columns:
     treat_outliers(aviation_data, col)
 `
+
 # Graphical Presentations
 
 #### Number of Accidents over the Years
