@@ -86,8 +86,8 @@ The reduction of the accidents may be due to production of new models of aeropla
 ![Makes with highest accidents](Top_10_Aircraft_Models_with_Most_Accidents.png)
 
 From the above graph, we can conclude that the Aircraft make with highest number of Accidents is Cessna.
-This make has over 25000 accidents since 1948 to 2022 which is a very high number compared other makes.
-Let's see which make has the least number of accidents since 1948 to 2022
+This make has over 25000 accidents since 1982 to 2022 which is a very high number compared other makes.
+Let's see which make has the least number of accidents since 1982 to 2022
 
 #### Yearly Number of Accidents Per Make
 
