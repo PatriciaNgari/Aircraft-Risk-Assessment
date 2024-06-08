@@ -63,7 +63,6 @@ def treat_outliers(aviation_data, column):
     IQR = Q3 - Q1
     lower_bound = Q1 - 1.5 * IQR
     upper_bound = Q3 + 1.5 * IQR
-
     median = aviation_data[column].median()
     aviation_data[column] = aviation_data[column].apply(lambda x: median if x < lower_bound or x > upper_bound else x)
 
