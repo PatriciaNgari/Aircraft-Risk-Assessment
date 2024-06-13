@@ -57,15 +57,25 @@ aviation_data= aviation_data.drop_duplicates()
 #### Treat the outliers using the Interquartile Range (IQR).
 
 `python
+
 def treat_outliers(aviation_data, column):
+
     Q1 = aviation_data[column].quantile(0.25)
+
     Q3 = aviation_data[column].quantile(0.75)
+
     IQR = Q3 - Q1
+
     lower_bound = Q1 - 1.5 * IQR
+
     upper_bound = Q3 + 1.5 * IQR
+
     median = aviation_data[column].median()
+
     aviation_data[column] = aviation_data[column].apply(lambda x: median if x < lower_bound or x > upper_bound else x)
+
 for col in aviation_data.select_dtypes(include=['number']).columns:
+
     treat_outliers(aviation_data, col)
 `
 
