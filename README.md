@@ -49,11 +49,11 @@ df[categorical_cols] = df[categorical_cols].fillna(categorical_modes)
 `
 #### Look for duplicates and drop them from the dataset.
 
-`python
+```python
 duplicates = aviation_data.duplicated().sum()
 duplicates
 aviation_data= aviation_data.drop_duplicates()
-`
+```
 #### Treat the outliers using the Interquartile Range (IQR).
 
 `python
